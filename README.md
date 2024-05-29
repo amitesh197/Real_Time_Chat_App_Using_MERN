@@ -1,37 +1,48 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+# Real_Time_Chat_App_Using_MERN
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
+A real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js), Socket.io, TailwindCSS, and Daisy UI. The application features authentication and authorization using JWT, real-time messaging, online user status, global state management, and comprehensive error handling. The application is deployed on Render.
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+## Features
 
-Some Features:
+- **Authentication & Authorization**: Secure login and registration using JSON Web Tokens (JWT).
+- **Real-time Messaging**: Instant messaging functionality powered by Socket.io.
+- **Online User Status**: Real-time updates on user status using Socket.io and React Context.
+- **Global State Management**: Efficient state management across the app with Zustand.
+- **Responsive UI**: Styled with TailwindCSS and Daisy UI for a modern and responsive design.
+- **Error Handling**: Robust error handling both on the server and client sides.
 
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+## Tech Stack
 
-### Setup .env file
+- **Frontend**: React, Vite, TailwindCSS, Daisy UI
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Real-time Communication**: Socket.io
+- **State Management**: Zustand
+- **Authentication**: JWT
 
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
+## Installation
 
-### Build the app
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/amitesh197/Real_Time_Chat_App_Using_MERN.git
+    ```
 
-```shell
-npm run build
-```
+2. **Environment Variables:**
+   Create a `.env` file in the root directory and add the following environment variables:
+    ```env
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    PORT=your_socket_port
+    NODE_ENV=development
+    ```
 
-### Start the app
+3. **Build the project:**
+    ```bash
+    npm run build
+    ```
 
-```shell
-npm start
-```
+4. **Start the project:**
+    ```bash
+    npm start
+    ```
+
