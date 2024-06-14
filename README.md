@@ -20,6 +20,14 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
 - **State Management**: Zustand
 - **Authentication**: JWT
 
+## Test Users login credentials - 
+username - user1,
+password - user1@123
+
+username - user2,
+password - user2@123
+
+
 ![Screenshot 2024-06-14 001553](https://github.com/amitesh197/Real_Time_Chat_App_Using_MERN/assets/123076729/75d4d30a-cb94-4265-a165-f837addafa30)
 ![Screenshot 2024-06-14 001600](https://github.com/amitesh197/Real_Time_Chat_App_Using_MERN/assets/123076729/2c5f0294-d3f0-437a-9c13-b7809e71eef5)
 ![Screenshot 2024-06-14 001705](https://github.com/amitesh197/Real_Time_Chat_App_Using_MERN/assets/123076729/766ec572-22cf-484c-bc79-45a5eeeaa0ac)
